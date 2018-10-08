@@ -1,0 +1,30 @@
+{
+  "name": "liqd-session",
+  "description": "Session",
+  "version": "1.0.1",
+  "author": "radixxko",
+  "license": "MIT",
+  "main": "lib/session.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/radixxko/liqd-session.git"
+  },
+  "keywords": [
+    "session",
+    "liqd"
+  ],
+  "dependencies": {
+    "liqd-cache": "^1.0.1",
+    "liqd-flow": "^1.2.5",
+    "liqd-options": "^1.0.5"
+  },
+  "devDependencies": {
+    "liqd-server": "^1.1.2"
+  }
+}
