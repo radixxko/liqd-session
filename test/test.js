@@ -18,10 +18,19 @@ const server = new Server();
 
 server.use(( req, res, next ) =>
 {
+	console.log( req.url );
+
 	session.start( { req, res }, next );
 });
 
 //server.session( '/', 'user', options )
+
+server.get( '/logout', async( req, res, next ) =>
+{
+	session.destroy();
+
+	res.end( 'Destroyed' );
+});
 
 server.get( '/', async( req, res, next ) =>
 {
