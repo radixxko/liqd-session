@@ -1,7 +1,7 @@
 {
   "name": "liqd-session",
   "description": "Session",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "author": "radixxko",
   "license": "MIT",
   "main": "lib/session.js",
@@ -20,11 +20,11 @@
     "liqd"
   ],
   "dependencies": {
-    "liqd-cache": "^1.0.3",
+    "liqd-cache": "^1.0.4",
     "liqd-flow": "^1.2.8",
     "liqd-options": "^1.0.8"
   },
   "devDependencies": {
-    "liqd-server": "^1.2.22"
+    "liqd-server": "^1.2.24"
   }
 }
