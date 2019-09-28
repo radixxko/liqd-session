@@ -20,11 +20,11 @@
     "liqd"
   ],
   "dependencies": {
-    "liqd-cache": "^1.0.4",
+    "liqd-cache": "^1.0.5",
     "liqd-flow": "^1.2.8",
     "liqd-options": "^1.0.8"
   },
   "devDependencies": {
-    "liqd-server": "^1.2.24"
+    "liqd-server": "^1.3.2"
   }
 }
